@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:travel_app/models/places.dart';
 import 'package:travel_app/screens/details_screen.dart';
 import 'package:travel_app/screens/home_screen.dart';
+import 'package:travel_app/screens/welcome_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(),
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
-        home: const HomeScreen(),
+        home: const WelcomeScreen(),
       ),
     );
   }
